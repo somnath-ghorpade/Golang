@@ -6,7 +6,7 @@
         <h1>{{ $t("vueProjectName") }}</h1>
         <div class="box-filter">
           <router-link to="/addMovie" class="title">
-            Add Project
+            Add Movie
           </router-link>
           <div class="title" @click="showFilterSidebar = true">
             Filter

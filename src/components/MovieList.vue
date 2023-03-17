@@ -1,6 +1,5 @@
 <template>
   <div id="movie-list">
-    <h2>{{ name }}</h2>
     <div v-if="filteredMovies.length" class="movie-list-holder">
       <movie-item
         v-for="movie in filteredMovies"

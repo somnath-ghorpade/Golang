@@ -46,7 +46,7 @@ export default {
     MovieItem
   },
   async beforeRouteEnter(to, from, next) {
-    const { data } = await axios.get("/api");
+    const { data } = await axios.get("/o/fetchMovies");
     const movie = data.find(movie => movie.id === to.params.id);
     if (movie) {
       next(vm => {

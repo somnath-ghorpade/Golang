@@ -4,7 +4,7 @@
       <router-link
         v-bind:to="{ name: 'movie', params: { id: movie.movie.imdbID } }"
       >
-        <img v-bind:src="movie.movie.Poster" />
+        <img v-bind:src="movie.movie.Poster" height="400" width="300" />
       </router-link>
     </div>
     <div class="movie-col-right">
