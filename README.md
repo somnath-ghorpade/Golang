@@ -1,31 +1,9 @@
-# vue-3-project
+Golang gin framework project 
 
-## Project setup
-```
-npm install
-```
-## Project Node version
-```
-use v18.12.1 
-```
-## Project Npm version
-```
-use v8.19.2
-```
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Golang version - 1.18+
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Gin version v1.8.2
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Run project
+    - go mod tidy
+    - go run main.go

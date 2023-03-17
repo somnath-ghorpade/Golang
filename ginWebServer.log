@@ -1,0 +1,15 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /o/checkServerStatus      --> GinWebServer/routes.Init.func1 (1 handlers)
+[GIN-debug] GET    /o/fetchMovies            --> GinWebServer/modules/movies.ReadMovies (1 handlers)
+[GIN-debug] POST   /o/fetchMovieById         --> GinWebServer/modules/movies.FetchMovieById (1 handlers)
+[GIN-debug] GET    /o/fetchMovieByIdQuery    --> GinWebServer/modules/movies.FetchMovieByIdQuery (1 handlers)
+[GIN-debug] GET    /r/deleteMovieByIdQuery   --> GinWebServer/modules/movies.DeleteMovieByIdQuery (2 handlers)
+[GIN-debug] POST   /o/insertMovie            --> GinWebServer/modules/movies.InsertMovie (1 handlers)
+[GIN-debug] POST   /o/updateMovie            --> GinWebServer/modules/movies.UpdateMovie (1 handlers)
+[GIN-debug] DELETE /c/deleteMovie            --> GinWebServer/routes.Init.func2 (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
